@@ -1,0 +1,43 @@
+{
+  "name": "loudo-gridview",
+  "version": "1.0.0",
+  "description": "Model/View/Controller for TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "module": "dist/index.js",
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p-jack/loudo-gridview.git"
+  },
+  "author": "Paul Jack",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/p-jack/loudo-gridview/issues"
+  },
+  "homepage": "https://github.com/p-jack/loudo-gridview#readme",
+  "devDependencies": {
+    "@types/web": "^0.0.138",
+    "@vitest/coverage-v8": "^1.2.2",
+    "jsdom": "^24.0.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.2"
+  },
+  "dependencies": {
+    "@pjack/styled-elements": "^1.0.0",
+    "@pjack/tjson": "^1.0.2",
+    "loud-array": "^1.0.0",
+    "loudify": "^1.0.4",
+    "loudo-bind": "^1.0.3",
+    "loudo-check": "^1.0.4",
+    "tjson": "^0.0.3"
+  }
+}
